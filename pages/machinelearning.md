@@ -482,7 +482,7 @@ Below is a scatter plot of some of the samples.
 
 Notice the distinct areas of red and green dots. If the input of this network was a simple x and y coordinate, the square band in the center would represent the "solution space" of our network. However, an actual EEG signal sample is an array of several points and can cross the boundary at any time. Plotted is one positive sample in green and two negative samples in red.
 
-![Alt text]({{ "images/machinelearning/image6.png" | absolute_url }})
+![Alt text]({{ "images/machinelearning/image9.png" | absolute_url }})
 
 
 It appears that our network is correctly classifying a simple set of fake EEG data is now and ready to be tested out with actual samples. We're almost ready to solve our P300 problem.
